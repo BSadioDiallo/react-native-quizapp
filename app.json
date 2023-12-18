@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b0b3a5f6-0977-4756-8e52-63444773ab31"
+      }
+    },
+    "owner": "sadiodiallo"
   }
 }
