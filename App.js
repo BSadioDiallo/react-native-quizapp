@@ -1,28 +1,30 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View } from 'react-native';
-import Question from './components/Question';
-import Response from './components/Response';
-import { NavigationContainer } from "@react-navigation/native";
+import {StyleSheet} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import HomeScreen from './screens/HomeScreen';
+import AboutScreen from './screens/AboutScreen';
+import OptionsScreen from './screens/OptionsScreen';
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
+  
   return (
     <NavigationContainer>
-      <View style={styles.container}>
-        <Question />
-        <View>
-          <Response response={responseText} />
-          <Response response={responseText} />
-          <Response response={responseText} />
-        </View>
-      </View>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="About" component={AboutScreen} />
+        <Stack.Screen name="Options" component={OptionsScreen} />
+      </Stack.Navigator>
     </NavigationContainer>
   );
 }
-const responseText = 'This is the response Text, wich one is little bit to long, damn working here waw';
+
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#eeeeee',
     alignItems: 'center',
     justifyContent: 'space-around',
   },

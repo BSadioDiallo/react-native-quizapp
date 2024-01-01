@@ -1,21 +1,13 @@
-import { View, Text, StyleSheet, TouchableOpacity  } from "react-native";
-import tw from 'twrnc';
+import { View, Text, TouchableOpacity  } from "react-native";
 
 export default function Response({response}) {
-
     return (
-        <View style={styles.container}>
-            <TouchableOpacity style={styles.leftSide}></TouchableOpacity>
-            <View style={styles.responseDiv}>
-                <Text style={styles.responseTexte}>{response}</Text>
-            </View>
+        <View className='shadow-x mx-5 mb-2 rounded-md w-[80vw] bg-neutral-100 h-[10vh]'>
+            <TouchableOpacity className="flex-row justify-between items-center">
+                <Text className="text-wrap text-base mx-2">{response}</Text>
+                <View className={`relative bg-${'slate'}-800 w-1/6 py-2 rounded-r-md h-[10vh]`} >
+                </View>
+            </TouchableOpacity>
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    container: tw`flex-row mx-auto w-85 rounded text-violet-600 bg-white shadow-lg hover:bg-violet-600 hover:text-white mb-2`,
-    leftSide: tw`flex-1 rounded bg-slate-800`,
-    responseDiv: tw`ml-4 flex-7 py-4`,
-    responseTexte: tw`text-base`,
-})

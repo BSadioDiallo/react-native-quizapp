@@ -1,19 +1,17 @@
-import { View, StyleSheet, Text } from "react-native";
-import tw from 'twrnc';
+import { View, Text } from "react-native";
 
 export default function Question() {
 
     return (
-        <View style={styles.container}>
-            <Text style={styles.questionStatus}>Question 4/10</Text>
-            <Text style={styles.questionText}>Lorem ipsum, dolor sit amet consectetur adipisicing nesciunt odio maiores repudiandae consequuntur velit ?</Text>
+        <View className={styles.container}>
+            <Text className={styles.questionStatus}>Question 4/10</Text>
+            <Text className={styles.questionText}>Lorem ipsum, dolor sit amet consectetur adipisicing nesciunt odio maiores repudiandae consequuntur velit ?</Text>
         </View>
     )
 }
-const textColor = 'yellow';
 
-const styles = StyleSheet.create({
-    container: tw`mx-auto my-4 box-border max-w-sm rounded-xl bg-violet-500 px-4 py-4`,
-    questionStatus: tw`text-${textColor}-200 pb-1`,
-    questionText: tw`text-white py-2 text-base`,
-});
+const styles = {
+    container: 'mx-auto my-4 max-w-sm rounded-xl bg-violet-500 px-4 py-4 w-[90vw]',
+    questionStatus: "text-yellow-100 pb-1",
+    questionText: "text-white py-2 text-base",
+};
