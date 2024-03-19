@@ -2,19 +2,15 @@
 
 # dependencies
 node_modules/
-database/
-tysqlite.js
-screens/DifficultyScreen.jsx
-screens/ResultScreen.jsx
-components/ResultRatio.jsx
-components/ResultViewer.jsx
-components/DesciptionContainer.jsx
-
+android/
+%ProgramData%/
+.vscode/
 
 # Expo
 .expo/
 dist/
 web-build/
+
 
 # Native
 *.orig.*

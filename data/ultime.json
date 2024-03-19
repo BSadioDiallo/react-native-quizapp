@@ -1,0 +1,1102 @@
+{
+    "python" : [
+      [
+        {
+          "question": "Quelle est la différence entre 'print' et 'return' en Python?",
+          "choices": [
+            "'print' affiche du texte à l'écran, 'return' renvoie une valeur à partir d'une fonction",
+            "'print' renvoie une valeur à partir d'une fonction, 'return' affiche du texte à l'écran",
+            "'print' affiche du texte à l'écran, 'return' affiche le résultat d'une opération"
+          ],
+          "response": 0,
+          "description": "En Python, 'print' est utilisé pour afficher du texte à l'écran, tandis que 'return' est utilisé pour renvoyer une valeur à partir d'une fonction. L'utilisation de 'return' permet de récupérer la valeur calculée par une fonction pour une utilisation ultérieure dans le programme."
+        },
+        {
+          "question": "Qu'est-ce qu'une boucle 'while' en Python?",
+          "choices": [
+            "Une boucle pour itérer sur une séquence",
+            "Une boucle pour exécuter une condition tant qu'elle est vraie",
+            "Une boucle pour exécuter une condition si elle est vraie"
+          ],
+          "response": 1,
+          "description": "En Python, une boucle 'while' est utilisée pour exécuter un bloc de code tant qu'une condition spécifiée est vraie. Elle continue à s'exécuter tant que la condition reste vraie."
+        },
+        {
+          "question": "Quel est le résultat de l'expression '10 % 3' en Python?",
+          "choices": ["1", "2", "3"],
+          "response": 0,
+          "description": "En Python, l'opérateur '%' (modulo) renvoie le reste de la division entre deux nombres. Dans cette expression, '10 % 3' donne un reste de 1."
+        },
+        {
+          "question": "Quelle est la méthode pour supprimer un élément d'un dictionnaire en Python?",
+          "choices": ["remove()", "delete()", "pop()"],
+          "response": 2,
+          "description": "La méthode 'pop()' en Python est utilisée pour supprimer un élément d'un dictionnaire en spécifiant la clé de l'élément à supprimer. Elle renvoie la valeur de l'élément supprimé."
+        },
+        {
+          "question": "Quel opérateur est utilisé pour la concaténation de chaînes en Python?",
+          "choices": ["&", "+", ","],
+          "response": 1,
+          "description": "En Python, l'opérateur '+' est utilisé pour la concaténation de chaînes. Il permet de joindre deux chaînes pour en former une seule."
+        },
+        {
+          "question": "Quel est le résultat de l'expression 'True or False' en Python?",
+          "choices": ["True", "False", "1"],
+          "response": 0,
+          "description": "L'opérateur 'or' en Python renvoie 'True' si au moins l'un des opérandes est 'True'. Dans cette expression, 'True or False' évalue à 'True'."
+        },
+        {
+          "question": "Quelle est la fonction utilisée pour obtenir la valeur absolue d'un nombre en Python?",
+          "choices": ["abs()", "absolute()", "valabs()"],
+          "response": 0,
+          "description": "La fonction 'abs()' en Python est utilisée pour obtenir la valeur absolue d'un nombre, c'est-à-dire sa distance par rapport à zéro, sans considérer sa direction."
+        },
+        {
+          "question": "Quel est le type de données utilisé pour stocker des valeurs binaires en Python?",
+          "choices": ["int", "float", "bool"],
+          "response": 2,
+          "description": "En Python, le type de données 'bool' est utilisé pour stocker des valeurs binaires, représentant soit 'True' (vrai) soit 'False' (faux). C'est un type de données booléen."
+        },
+        {
+          "question": "Quel est le résultat de l'expression 'not True' en Python?",
+          "choices": ["True", "False", "0"],
+          "response": 1,
+          "description": "L'opérateur 'not' en Python renvoie 'True' si l'opérande est 'False', et 'False' s'il est 'True'. Dans cette expression, 'not True' évalue à 'False'."
+        },
+        {
+          "question": "Quel est le but de la fonction 'input()' en Python?",
+          "choices": [
+            "Afficher du texte à l'écran",
+            "Obtenir une valeur saisie par l'utilisateur",
+            "Calculer une opération de mathématique"
+          ],
+          "response": 1,
+          "description": "La fonction 'input()' en Python est utilisée pour obtenir une valeur saisie par l'utilisateur à partir de la console. Elle renvoie une chaîne de caractères représentant l'entrée de l'utilisateur."
+        } 
+      ],
+      [
+        {
+          "question": "Quelle est la différence entre une liste et un tuple en Python?",
+          "choices": [
+            "Une liste est immuable, un tuple est mutable",
+            "Une liste est mutable, un tuple est immuable",
+            "Une liste peut contenir des éléments de types différents"
+          ],
+          "response": 1,
+          "description": "La principale différence entre une liste et un tuple en Python est que les listes sont mutables, ce qui signifie que leurs éléments peuvent être modifiés après la création, tandis que les tuples sont immuables et ne peuvent pas être modifiés après leur création."
+        },
+        {
+          "question": "Quel est le résultat de l'expression '5 == '5'' en Python?",
+          "choices": ["True", "False", "Les types sont différents"],
+          "response": 1,
+          "description": "En Python, l'opérateur '==' teste l'égalité en valeur, mais pas en type. Dans cette expression, '5' est une chaîne de caractères, et donc '5 == '5'' évalue à 'False' car les types sont différents."
+        },
+        {
+          "question": "Quelle est la méthode pour obtenir la partie entière d'un nombre en Python?",
+          "choices": ["floor()", "int()", "round()"],
+          "response": 1,
+          "description": "La fonction 'int()' en Python est utilisée pour obtenir la partie entière d'un nombre en tronquant les décimales. Elle ne fait pas d'arrondi, elle supprime simplement la partie décimale."
+        },
+        {
+          "question": "Quel est le résultat de l'expression 'not False' en Python?",
+          "choices": ["True", "False", "0"],
+          "response": 0,
+          "description": "L'opérateur 'not' en Python renvoie 'True' si l'opérande est 'False', et 'False' s'il est 'True'. Dans cette expression, 'not False' évalue à 'True'."
+        },
+        {
+          "question": "Quelle est la fonction pour générer un nombre aléatoire en Python?",
+          "choices": ["random()", "randint()", "generate()"],
+          "response": 0,
+          "description": "La fonction 'random()' du module 'random' en Python est utilisée pour générer un nombre aléatoire compris entre 0 et 1. Pour obtenir un nombre entier aléatoire, on peut utiliser 'randint()' du même module."
+        },
+        {
+          "question": "Quelle est la fonction pour trouver la valeur maximale dans une liste en Python?",
+          "choices": ["max()", "find_max()", "largest()"],
+          "response": 0,
+          "description": "La fonction 'max()' en Python est utilisée pour trouver la valeur maximale dans une séquence, telle qu'une liste. Elle renvoie la plus grande valeur présente dans la séquence."
+        },
+        {
+          "question": "Quel est le type de données utilisé pour stocker une séquence ordonnée d'éléments en Python?",
+          "choices": ["list", "tuple", "set"],
+          "response": 0,
+          "description": "En Python, le type de données 'list' est utilisé pour stocker une séquence ordonnée d'éléments. Les éléments peuvent être de différents types et la liste peut être modifiée après sa création."
+        },
+        {
+          "question": "Quel opérateur est utilisé pour tester si un élément est présent dans une liste en Python?",
+          "choices": ["in", "contains", "has"],
+          "response": 0,
+          "description": "L'opérateur 'in' en Python est utilisé pour tester si un élément est présent dans une séquence, telle qu'une liste. Il renvoie un booléen indiquant si l'élément est présent ou non."
+        },
+        {
+          "question": "Quelle est la méthode pour diviser une chaîne de caractères en une liste en Python?",
+          "choices": ["split()", "slice()", "break()"],
+          "response": 0,
+          "description": "La méthode 'split()' en Python est utilisée pour diviser une chaîne de caractères en une liste de sous-chaînes en utilisant un séparateur spécifié. Par défaut, elle divise la chaîne à chaque espace."
+        },
+        {
+          "question": "Quelle est la différence entre 'if' et 'elif' en Python?",
+          "choices": [
+            "Aucune différence, ce sont des synonymes",
+            "'if' est utilisé pour une condition unique, 'elif' est utilisé pour des conditions multiples",
+            "'elif' est utilisé pour une condition unique, 'if' est utilisé pour des conditions multiples"
+          ],
+          "response": 1,
+          "description": "En Python, 'elif' est utilisé après un 'if' pour tester des conditions multiples. Si la condition du 'if' est fausse, le bloc de code sous 'elif' est exécuté si la première condition 'elif' est vraie, et ainsi de suite."
+        }
+      ],
+      [
+        {
+          "question": "Quelle est la méthode pour vérifier la présence d'une clé dans un dictionnaire en Python?",
+          "choices": [".check()", ".exists()", "in"],
+          "response": 2,
+          "description": "En Python, l'opérateur 'in' est utilisé pour vérifier la présence d'une clé dans un dictionnaire."
+        },
+        {
+          "question": "Quel est l'effet de la méthode 'strip()' sur une chaîne de caractères en Python?",
+          "choices": [
+            "Supprime les espaces à la fin de la chaîne",
+            "Supprime les espaces au début et à la fin de la chaîne",
+            "Convertit la chaîne en majuscules"
+          ],
+          "response": 1,
+          "description": "La méthode 'strip()' supprime les espaces à la fin et au début de la chaîne de caractères en Python."
+        },
+        {
+          "question": "Quelle fonction Python est utilisée pour obtenir la valeur absolue d'un nombre?",
+          "choices": ["abs()", "absolute()", "val()"],
+          "response": 0,
+          "description": "La fonction 'abs()' est utilisée pour obtenir la valeur absolue d'un nombre en Python."
+        },
+        {
+          "question": "Quel est l'opérateur logique 'et' en Python?",
+          "choices": ["and", "&&", "&"],
+          "response": 0,
+          "description": "L'opérateur logique 'et' en Python est représenté par 'and'."
+        },
+        {
+          "question": "Quelle est la méthode pour supprimer un élément d'une liste par sa valeur en Python?",
+          "choices": [".remove()", ".delete()", ".erase()"],
+          "response": 0,
+          "description": "La méthode '.remove()' est utilisée pour supprimer un élément d'une liste par sa valeur en Python."
+        },
+        {
+          "question": "Quel module Python est utilisé pour travailler avec des fichiers et des répertoires?",
+          "choices": ["os", "file", "fs"],
+          "response": 0,
+          "description": "Le module 'os' en Python est utilisé pour travailler avec des fichiers et des répertoires."
+        },
+        {
+          "question": "Quelle est la différence entre les listes et les tuples en Python?",
+          "choices": [
+            "Les tuples sont immuables, les listes sont mutables",
+            "Les listes sont immuables, les tuples sont mutables",
+            "Il n'y a aucune différence"
+          ],
+          "response": 0,
+          "description": "Les tuples sont immuables, ce qui signifie qu'ils ne peuvent pas être modifiés après leur création, tandis que les listes sont mutables."
+        },
+        {
+          "question": "Quelle est la méthode pour obtenir la valeur maximale dans une liste en Python?",
+          "choices": [".max()", "max()", ".maximum()"],
+          "response": 1,
+          "description": "La fonction 'max()' est utilisée pour obtenir la valeur maximale dans une liste en Python."
+        },
+        {
+          "question": "Quelle est la manière correcte de commenter plusieurs lignes de code en Python?",
+          "choices": [
+            "<!-- commentaire -->",
+            "// commentaire",
+            "''' commentaire '''"
+          ],
+          "response": 2,
+          "description": "La manière correcte de commenter plusieurs lignes de code en Python est d'utiliser les triple apostrophes (''' commentaire ''')."
+        },
+        {
+          "question": "Quel est le résultat de l'expression '4 % 2' en Python?",
+          "choices": ["0", "2", "1"],
+          "response": 0,
+          "description": "L'expression '4 % 2' évalue à 0 en Python, car '%' représente l'opérateur de modulo qui donne le reste de la division."
+        }
+      ],
+      [
+        {
+          "question": "Quelle est la différence entre les méthodes 'remove()' et 'pop()' pour les listes en Python?",
+          "choices": [
+            "'remove()' supprime un élément par valeur, 'pop()' par index",
+            "'pop()' supprime un élément par valeur, 'remove()' par index",
+            "Il n'y a pas de différence"
+          ],
+          "response": 0,
+          "description": "'remove()' supprime un élément de la liste par sa valeur, tandis que 'pop()' supprime un élément de la liste par son index et le renvoie."
+        },
+        {
+          "question": "Quelle est la fonction de l'opérateur modulo '%' en Python?",
+          "choices": [
+            "Calcule la puissance",
+            "Renvoie le reste de la division entière",
+            "Effectue une division flottante"
+          ],
+          "response": 1,
+          "description": "L'opérateur modulo '%' en Python renvoie le reste de la division entière entre deux nombres."
+        },
+        {
+          "question": "Quelle est la méthode pour inverser l'ordre des éléments dans une liste en Python?",
+          "choices": [".reverse()", ".invert()", ".flip()"],
+          "response": 0,
+          "description": "La méthode pour inverser l'ordre des éléments dans une liste en Python est '.reverse()'."
+        },
+        {
+          "question": "Quelle est la fonction de la méthode 'isdigit()' sur les chaînes en Python?",
+          "choices": [
+            "Vérifie si tous les caractères sont des chiffres",
+            "Convertit la chaîne en majuscules",
+            "Vérifie si la chaîne est vide"
+          ],
+          "response": 0,
+          "description": "La méthode 'isdigit()' vérifie si tous les caractères d'une chaîne sont des chiffres."
+        },
+        {
+          "question": "Quelle est la différence entre les opérateurs 'and' et 'or' dans les expressions conditionnelles en Python?",
+          "choices": [
+            "'and' est l'opérateur logique 'et', 'or' est l'opérateur logique 'ou'",
+            "'or' est l'opérateur logique 'et', 'and' est l'opérateur logique 'ou'",
+            "Il n'y a pas de différence"
+          ],
+          "response": 0,
+          "description": "'and' est l'opérateur logique 'et', évalué à True si toutes les conditions sont vraies. 'or' est l'opérateur logique 'ou', évalué à True si au moins une condition est vraie."
+        },
+        {
+          "question": "Quelle est la méthode pour obtenir la valeur par défaut d'un dictionnaire en Python si la clé n'existe pas?",
+          "choices": [".default()", ".get()", ".value()"],
+          "response": 1,
+          "description": "La méthode pour obtenir la valeur par défaut d'un dictionnaire en Python si la clé n'existe pas est '.get()'."
+        },
+        {
+          "question": "Quelle est la signification du mot-clé 'global' dans une fonction Python?",
+          "choices": [
+            "Déclare une variable en dehors de la fonction",
+            "Définit une variable en tant que constante",
+            "Indique que la variable est utilisée à l'échelle mondiale"
+          ],
+          "response": 2,
+          "description": "Le mot-clé 'global' dans une fonction Python indique que la variable est utilisée à l'échelle mondiale (en dehors de la fonction), permettant de modifier la variable globale à l'intérieur de la fonction."
+        },
+        {
+          "question": "Quelle est la fonction de la méthode 'isalpha()' sur les chaînes en Python?",
+          "choices": [
+            "Vérifie si tous les caractères sont alphabétiques",
+            "Vérifie si tous les caractères sont des chiffres",
+            "Vérifie si la chaîne est vide"
+          ],
+          "response": 0,
+          "description": "La méthode 'isalpha()' vérifie si tous les caractères d'une chaîne sont alphabétiques."
+        },
+        {
+          "question": "Quelle est la différence entre les opérateurs '==' et 'is' pour la comparaison d'objets en Python?",
+          "choices": [
+            "'==' compare les valeurs, 'is' compare les références mémoire",
+            "'is' compare les valeurs, '==' compare les références mémoire",
+            "Il n'y a pas de différence"
+          ],
+          "response": 0,
+          "description": "'==' compare les valeurs des objets, tandis que 'is' compare les références mémoire, vérifiant s'ils se réfèrent au même objet en mémoire."
+        },
+        {
+          "question": "Quelle est la méthode pour créer une copie profonde d'une liste en Python?",
+          "choices": [".copy()", ".clone()", "copy.deepcopy()"],
+          "response": 2,
+          "description": "La méthode pour créer une copie profonde d'une liste en Python est 'copy.deepcopy()'."
+        }
+      ]
+    ],
+    "html": [
+        [
+          {
+            "question": "Quel élément HTML est utilisé pour créer un lien hypertexte?",
+            "choices": ["<a>", "<link>", "<href>"],
+            "response": 0,
+            "description": "L'élément '<a>' est utilisé pour créer un lien hypertexte en HTML."
+          },
+          {
+            "question": "Quelle balise HTML est utilisée pour définir une liste non ordonnée?",
+            "choices": ["<ul>", "<ol>", "<li>"],
+            "response": 0,
+            "description": "La balise '<ul>' est utilisée pour définir une liste non ordonnée en HTML."
+          },
+          {
+            "question": "Quel attribut HTML est utilisé pour définir le texte alternatif d'une image?",
+            "choices": ["alt", "title", "text"],
+            "response": 0,
+            "description": "L'attribut 'alt' est utilisé pour définir le texte alternatif d'une image en HTML."
+          },
+          {
+            "question": "Quelle balise HTML est utilisée pour définir un paragraphe?",
+            "choices": ["<p>", "<para>", "<text>"],
+            "response": 0,
+            "description": "La balise '<p>' est utilisée pour définir un paragraphe en HTML."
+          },
+          {
+            "question": "Quelle balise HTML est utilisée pour créer une ligne horizontale?",
+            "choices": ["<line>", "<hr>", "<linebreak>"],
+            "response": 1,
+            "description": "La balise '<hr>' est utilisée pour créer une ligne horizontale en HTML."
+          },
+          {
+            "question": "Quel attribut HTML est utilisé pour définir le style en ligne d'un élément?",
+            "choices": ["style", "css", "inline"],
+            "response": 0,
+            "description": "L'attribut 'style' est utilisé pour définir le style en ligne d'un élément en HTML."
+          },
+          {
+            "question": "Quelle balise HTML est utilisée pour définir une cellule dans un tableau?",
+            "choices": ["<td>", "<th>", "<tr>"],
+            "response": 0,
+            "description": "La balise '<td>' est utilisée pour définir une cellule dans un tableau en HTML."
+          },
+          {
+            "question": "Quelle balise HTML est utilisée pour définir un titre pour la page?",
+            "choices": ["<header>", "<title>", "<h1>"],
+            "response": 1,
+            "description": "La balise '<title>' est utilisée pour définir un titre pour la page en HTML."
+          },
+          {
+            "question": "Quel attribut HTML est utilisé pour définir une classe CSS?",
+            "choices": ["class", "css", "style"],
+            "response": 0,
+            "description": "L'attribut 'class' est utilisé pour définir une classe CSS en HTML."
+          },
+          {
+            "question": "Quelle balise HTML est utilisée pour définir un lien vers une feuille de style externe?",
+            "choices": ["<link>", "<style>", "<css>"],
+            "response": 0,
+            "description": "La balise '<link>' est utilisée pour définir un lien vers une feuille de style externe en HTML."
+          }
+        ],
+        [
+          {
+            "question": "Quelle balise HTML est utilisée pour définir un titre principal sur une page web?",
+            "choices": ["<title>", "<h1>", "<heading>"],
+            "response": 1,
+            "description": "La balise '<h1>' est utilisée pour définir un titre principal sur une page web en HTML."
+          },
+          {
+            "question": "Quel attribut HTML est utilisé pour définir une URL dans une balise 'a'?",
+            "choices": ["href", "url", "link"],
+            "response": 0,
+            "description": "L'attribut 'href' est utilisé pour définir une URL dans une balise 'a' en HTML."
+          },
+          {
+            "question": "Quelle balise HTML est utilisée pour créer une liste ordonnée?",
+            "choices": ["<ol>", "<ul>", "<li>"],
+            "response": 0,
+            "description": "La balise '<ol>' est utilisée pour créer une liste ordonnée en HTML."
+          },
+          {
+            "question": "Quel élément HTML est utilisé pour créer un formulaire dans une page web?",
+            "choices": ["<form>", "<input>", "<submit>"],
+            "response": 0,
+            "description": "L'élément '<form>' est utilisé pour créer un formulaire dans une page web en HTML."
+          },
+          {
+            "question": "Quelle balise HTML est utilisée pour définir un lien vers une feuille de style interne?",
+            "choices": ["<style>", "<link>", "<css>"],
+            "response": 0,
+            "description": "La balise '<style>' est utilisée pour définir un style interne (feuille de style) en HTML."
+          },
+          {
+            "question": "Quel attribut HTML est utilisé pour définir du texte en italique?",
+            "choices": ["<italic>", "<i>", "<style>"],
+            "response": 1,
+            "description": "L'attribut '<i>' est utilisé pour définir du texte en italique en HTML."
+          },
+          {
+            "question": "Quelle balise HTML est utilisée pour définir une image?",
+            "choices": ["<img>", "<image>", "<picture>"],
+            "response": 0,
+            "description": "La balise '<img>' est utilisée pour définir une image en HTML."
+          },
+          {
+            "question": "Quel attribut HTML est utilisé pour définir du texte en gras?",
+            "choices": ["<strong>", "<bold>", "<b>"],
+            "response": 2,
+            "description": "L'attribut '<b>' est utilisé pour définir du texte en gras en HTML."
+          },
+          {
+            "question": "Quelle balise HTML est utilisée pour définir un saut de ligne?",
+            "choices": ["<nl>", "<linebreak>", "<br>"],
+            "response": 2,
+            "description": "La balise '<br>' est utilisée pour définir un saut de ligne en HTML."
+          },
+          {
+            "question": "Quelle balise HTML est utilisée pour définir une cellule d'en-tête dans un tableau?",
+            "choices": ["<th>", "<td>", "<header>"],
+            "response": 0,
+            "description": "La balise '<th>' est utilisée pour définir une cellule d'en-tête dans un tableau en HTML."
+          }
+        ],
+        [
+          {
+            "question": "Quelle balise est utilisée pour créer un formulaire en HTML?",
+            "choices": ["<form>", "<input>", "<submit>"],
+            "response": 0,
+            "description": "La balise '<form>' est utilisée pour créer un formulaire en HTML. Elle englobe tous les éléments de formulaire, tels que les champs de saisie, les boutons, etc."
+          },
+          {
+            "question": "Quelle balise est utilisée pour créer une zone de texte dans un formulaire HTML?",
+            "choices": ["<input type='text'>", "<textarea>", "<text>"],
+            "response": 1,
+            "description": "La balise '<textarea>' est utilisée pour créer une zone de texte dans un formulaire HTML. Elle permet aux utilisateurs de saisir du texte sur plusieurs lignes."
+          },
+          {
+            "question": "Quelle balise est utilisée pour créer une case à cocher dans un formulaire HTML?",
+            "choices": ["<input type='checkbox'>", "<check>", "<box>"],
+            "response": 0,
+            "description": "La balise '<input type='checkbox'>' est utilisée pour créer une case à cocher dans un formulaire HTML. Elle permet aux utilisateurs de sélectionner une ou plusieurs options parmi plusieurs."
+          },
+          {
+            "question": "Quelle balise est utilisée pour créer un bouton de soumission dans un formulaire HTML?",
+            "choices": ["<button>", "<submit>", "<input type='submit'>"],
+            "response": 2,
+            "description": "La balise '<input type='submit'>' est utilisée pour créer un bouton de soumission dans un formulaire HTML. Lorsqu'il est cliqué, le formulaire est envoyé au serveur pour traitement."
+          },
+          {
+            "question": "Quelle balise est utilisée pour créer une liste déroulante (menu déroulant) dans un formulaire HTML?",
+            "choices": ["<list>", "<dropdown>", "<select>"],
+            "response": 2,
+            "description": "La balise '<select>' est utilisée pour créer une liste déroulante (menu déroulant) dans un formulaire HTML. Elle est souvent utilisée avec la balise '<option>' pour définir les différentes options de sélection."
+          },
+          {
+            "question": "Quelle balise est utilisée pour créer un champ de saisie de mot de passe dans un formulaire HTML?",
+            "choices": ["<password>", "<input type='password'>", "<secure>"],
+            "response": 1,
+            "description": "La balise '<input type='password'>' est utilisée pour créer un champ de saisie de mot de passe dans un formulaire HTML. Les caractères saisis sont masqués par des astérisques ou des points."
+          },
+          {
+            "question": "Quelle balise est utilisée pour créer un bouton de réinitialisation dans un formulaire HTML?",
+            "choices": [
+              "<reset>",
+              "<input type='reset'>",
+              "<button type='reset'>"
+            ],
+            "response": 1,
+            "description": "La balise '<input type='reset'>' est utilisée pour créer un bouton de réinitialisation dans un formulaire HTML. Lorsqu'il est cliqué, il réinitialise les valeurs des champs du formulaire."
+          },
+          {
+            "question": "Quelle balise est utilisée pour regrouper des éléments dans un formulaire HTML?",
+            "choices": ["<group>", "<fieldset>", "<div>"],
+            "response": 1,
+            "description": "La balise '<fieldset>' est utilisée pour regrouper des éléments dans un formulaire HTML. Elle est souvent utilisée avec la balise '<legend>' pour fournir une légende ou un titre au groupe de champs."
+          },
+          {
+            "question": "Quelle balise est utilisée pour créer un bouton radio dans un formulaire HTML?",
+            "choices": ["<radio>", "<input type='radio'>", "<check>"],
+            "response": 1,
+            "description": "La balise '<input type='radio'>' est utilisée pour créer un bouton radio dans un formulaire HTML. Elle permet aux utilisateurs de sélectionner une option parmi plusieurs, mais seulement une à la fois."
+          },
+          {
+            "question": "Quelle balise est utilisée pour créer une case à cocher désactivée dans un formulaire HTML?",
+            "choices": [
+              "<checkbox>",
+              "<input type='disabled'>",
+              "<input type='checkbox' disabled>"
+            ],
+            "response": 2,
+            "description": "La balise '<input type='checkbox' disabled>' est utilisée pour créer une case à cocher désactivée dans un formulaire HTML. Elle est visible mais ne peut pas être modifiée par l'utilisateur."
+          }
+        ],
+        [
+          {
+            "question": "Quelle balise est utilisée pour créer une table en HTML?",
+            "choices": ["<table>", "<tr>", "<td>"],
+            "response": 0,
+            "description": "La balise '<table>' est utilisée pour créer une table en HTML."
+          },
+          {
+            "question": "Quelle balise est utilisée pour définir une ligne dans une table HTML?",
+            "choices": ["<table>", "<tr>", "<td>"],
+            "response": 1,
+            "description": "La balise '<tr>' est utilisée pour définir une ligne dans une table HTML."
+          },
+          {
+            "question": "Quelle balise est utilisée pour définir une cellule dans une table HTML?",
+            "choices": ["<table>", "<tr>", "<td>"],
+            "response": 2,
+            "description": "La balise '<td>' est utilisée pour définir une cellule dans une table HTML."
+          },
+          {
+            "question": "Quelle balise est utilisée pour définir l'en-tête d'une colonne dans une table HTML?",
+            "choices": ["<thead>", "<th>", "<header>"],
+            "response": 1,
+            "description": "La balise '<th>' est utilisée pour définir l'en-tête d'une colonne dans une table HTML."
+          },
+          {
+            "question": "Quelle balise est utilisée pour définir une légende pour une table en HTML?",
+            "choices": ["<legend>", "<caption>", "<label>"],
+            "response": 1,
+            "description": "La balise '<caption>' est utilisée pour définir une légende pour une table en HTML. Elle est généralement placée à l'intérieur de la balise '<table>'."
+          },
+          {
+            "question": "Qu'est-ce que l'optimisation pour les moteurs de recherche (SEO) signifie en relation avec un site web?",
+            "choices": [
+              "Améliorer la visibilité du site sur les moteurs de recherche",
+              "Ajouter des fonctionnalités interactives au site",
+              "Optimiser les images du site"
+            ],
+            "response": 0,
+            "description": "L'optimisation pour les moteurs de recherche (SEO) signifie améliorer la visibilité du site sur les moteurs de recherche, augmentant ainsi les chances d'obtenir un meilleur classement dans les résultats de recherche."
+          },
+          {
+            "question": "Quel attribut HTML est utilisé pour spécifier le texte alternatif d'une image?",
+            "choices": ["alt", "text", "title"],
+            "response": 0,
+            "description": "L'attribut HTML utilisé pour spécifier le texte alternatif d'une image est 'alt'. Cela est important pour l'accessibilité et le référencement."
+          },
+          {
+            "question": "Quel attribut HTML est utilisé pour définir la source (URL) d'une image?",
+            "choices": ["src", "source", "url"],
+            "response": 0,
+            "description": "L'attribut HTML utilisé pour définir la source (URL) d'une image est 'src'."
+          },
+          {
+            "question": "Quelle balise est utilisée pour incorporer une vidéo dans une page HTML?",
+            "choices": ["<video>", "<media>", "<embed>"],
+            "response": 0,
+            "description": "La balise '<video>' est utilisée pour incorporer une vidéo dans une page HTML."
+          },
+          {
+            "question": "Quel attribut HTML est utilisé pour spécifier la largeur d'une image?",
+            "choices": ["width", "size", "style"],
+            "response": 0,
+            "description": "L'attribut HTML utilisé pour spécifier la largeur d'une image est 'width'."
+          }
+        ]
+    ],
+    "java" : [
+        [
+          {
+            "question": "Quel mot-clé est utilisé pour déclarer une variable constante en Java?",
+            "choices": ["var", "final", "const"],
+            "response": 1,
+            "description": "En Java, le mot-clé 'final' est utilisé pour déclarer une variable constante."
+          },
+          {
+            "question": "Quelle est la méthode principale utilisée pour démarrer l'exécution d'un programme Java?",
+            "choices": ["main()", "start()", "run()"],
+            "response": 0,
+            "description": "La méthode principale qui démarre l'exécution d'un programme Java est 'public static void main(String[] args)'."
+          },
+          {
+            "question": "Quel est le type de données pour stocker des nombres entiers en Java?",
+            "choices": ["int", "float", "char"],
+            "response": 0,
+            "description": "En Java, le type de données 'int' est utilisé pour stocker des nombres entiers."
+          },
+          {
+            "question": "Quel mot-clé est utilisé pour créer une instance d'une classe en Java?",
+            "choices": ["new", "instance", "create"],
+            "response": 0,
+            "description": "En Java, le mot-clé 'new' est utilisé pour créer une nouvelle instance d'une classe."
+          },
+          {
+            "question": "Quelle est la méthode pour obtenir la longueur d'une chaîne en Java?",
+            "choices": [".length()", ".size()", ".count()"],
+            "response": 0,
+            "description": "La méthode '.length()' est utilisée pour obtenir la longueur d'une chaîne en Java."
+          },
+          {
+            "question": "Quel est le mot-clé utilisé pour hériter d'une classe en Java?",
+            "choices": ["extends", "implements", "inherit"],
+            "response": 0,
+            "description": "En Java, le mot-clé 'extends' est utilisé pour hériter d'une classe."
+          },
+          {
+            "question": "Quelle est la différence entre '== et '.equals()' pour comparer des chaînes en Java?",
+            "choices": [
+              "Aucune différence, les deux peuvent être utilisés interchangeables.",
+              "'==' compare les références, '.equals()' compare les contenus.",
+              "'.equals()' compare les références, '==' compare les contenus."
+            ],
+            "response": 1,
+            "description": "'==' compare les références d'objets, tandis que '.equals()' compare le contenu des chaînes en Java."
+          },
+          {
+            "question": "Quel est le mot-clé utilisé pour créer une interface en Java?",
+            "choices": ["interface", "class", "implements"],
+            "response": 0,
+            "description": "En Java, le mot-clé 'interface' est utilisé pour créer une interface."
+          },
+          {
+            "question": "Quel est l'opérateur logique 'ET' en Java?",
+            "choices": ["&&", "||", "!"],
+            "response": 0,
+            "description": "En Java, l'opérateur logique 'ET' est représenté par '&&'."
+          },
+          {
+            "question": "Quelle est la méthode pour convertir une chaîne en nombre en Java?",
+            "choices": [
+              "Integer.parseInt()",
+              "String.toInteger()",
+              "convertToInteger()"
+            ],
+            "response": 0,
+            "description": "La méthode 'Integer.parseInt()' est utilisée pour convertir une chaîne en nombre en Java."
+          }
+        ],
+        [
+          {
+            "question": "Quel mot-clé est utilisé pour déclarer une méthode en Java sans spécifier de type de retour?",
+            "choices": ["void", "null", "none"],
+            "response": 0,
+            "description": "En Java, le mot-clé 'void' est utilisé pour déclarer une méthode sans spécifier de type de retour."
+          },
+          {
+            "question": "Quel est le rôle du mot-clé 'super' dans Java?",
+            "choices": [
+              "Appelle la méthode parente",
+              "Déclare une variable globale",
+              "Initialise une variable statique"
+            ],
+            "response": 0,
+            "description": "Le mot-clé 'super' est utilisé pour appeler la méthode parente dans Java."
+          },
+          {
+            "question": "Quelle est la différence entre 'ArrayList' et 'LinkedList' en Java?",
+            "choices": [
+              "Aucune différence",
+              "'ArrayList' est synchronisée, 'LinkedList' ne l'est pas",
+              "'LinkedList' permet un accès rapide aux éléments, 'ArrayList' ne le permet pas"
+            ],
+            "response": 2,
+            "description": "'LinkedList' permet un accès rapide aux éléments, tandis que 'ArrayList' est plus efficace pour l'accès séquentiel."
+          },
+          {
+            "question": "Quel est le mot-clé utilisé pour empêcher l'héritage d'une classe en Java?",
+            "choices": ["final", "abstract", "static"],
+            "response": 0,
+            "description": "En Java, le mot-clé 'final' est utilisé pour empêcher l'héritage d'une classe."
+          },
+          {
+            "question": "Quelle est la méthode pour trier un tableau d'objets en Java?",
+            "choices": [".sort()", ".order()", ".arrange()"],
+            "response": 0,
+            "description": "La méthode '.sort()' est utilisée pour trier un tableau d'objets en Java."
+          },
+          {
+            "question": "Quel est le rôle du mot-clé 'this' en Java?",
+            "choices": [
+              "Référence à l'instance actuelle",
+              "Initialise une variable locale",
+              "Déclare une classe anonyme"
+            ],
+            "response": 0,
+            "description": "Le mot-clé 'this' est utilisé pour faire référence à l'instance actuelle d'une classe en Java."
+          },
+          {
+            "question": "Quelle est la différence entre une classe abstraite et une interface en Java?",
+            "choices": [
+              "Aucune différence",
+              "Une classe abstraite peut avoir des méthodes concrètes, une interface ne le peut pas",
+              "Une interface peut avoir des champs, une classe abstraite ne le peut pas"
+            ],
+            "response": 1,
+            "description": "Une classe abstraite peut avoir des méthodes concrètes, tandis qu'une interface ne peut avoir que des méthodes abstraites en Java."
+          },
+          {
+            "question": "Quel est le mot-clé utilisé pour gérer les exceptions en Java?",
+            "choices": ["try", "catch", "throw"],
+            "response": 0,
+            "description": "Les blocs 'try', 'catch', et 'throw' sont utilisés pour gérer les exceptions en Java."
+          },
+          {
+            "question": "Quelle est la méthode pour obtenir l'heure actuelle en Java?",
+            "choices": [
+              "System.getTime()",
+              "Date.getTime()",
+              "System.currentTimeMillis()"
+            ],
+            "response": 2,
+            "description": "La méthode 'System.currentTimeMillis()' est utilisée pour obtenir l'heure actuelle en millisecondes en Java."
+          },
+          {
+            "question": "Quel est le mot-clé utilisé pour démarrer une thread en Java?",
+            "choices": ["start()", "run()", "execute()"],
+            "response": 0,
+            "description": "Le mot-clé 'start()' est utilisé pour démarrer une thread en Java."
+          }
+        ],
+        [
+          {
+            "question": "Quelle est la classe de base pour toutes les classes en Java?",
+            "choices": ["BaseClass", "MainClass", "Object"],
+            "response": 2,
+            "description": "En Java, la classe de base pour toutes les classes est 'Object'."
+          },
+          {
+            "question": "Quelle est la méthode principale utilisée pour démarrer l'exécution d'un programme Java?",
+            "choices": ["main()", "start()", "run()"],
+            "response": 0,
+            "description": "La méthode principale utilisée pour démarrer l'exécution d'un programme Java est 'public static void main(String[] args)'."
+          },
+          {
+            "question": "Quel mot-clé est utilisé pour déclarer une variable constante en Java?",
+            "choices": ["const", "final", "static"],
+            "response": 1,
+            "description": "Le mot-clé 'final' est utilisé pour déclarer une variable constante en Java."
+          },
+          {
+            "question": "Quelle est la différence entre '==' et '.equals()' pour comparer des chaînes en Java?",
+            "choices": [
+              "Aucune différence",
+              "'==' compare la référence, '.equals()' compare le contenu",
+              "'==' compare le contenu, '.equals()' compare la référence"
+            ],
+            "response": 1,
+            "description": "'==' compare la référence mémoire des objets, tandis que '.equals()' compare le contenu des objets pour les chaînes en Java."
+          },
+          {
+            "question": "Quelle interface est étendue par toutes les autres interfaces en Java?",
+            "choices": ["BaseInterface", "MainInterface", "Serializable"],
+            "response": 2,
+            "description": "En Java, toutes les autres interfaces sont étendues indirectement par l'interface 'Serializable'."
+          },
+          {
+            "question": "Quel est le mot-clé utilisé pour implémenter l'héritage de classe en Java?",
+            "choices": ["extends", "inherits", "implements"],
+            "response": 0,
+            "description": "Le mot-clé 'extends' est utilisé pour implémenter l'héritage de classe en Java."
+          },
+          {
+            "question": "Quelle classe est utilisée pour lire des données depuis le clavier en Java?",
+            "choices": ["System.in", "ConsoleReader", "KeyboardInput"],
+            "response": 0,
+            "description": "La classe 'System.in' est utilisée pour lire des données depuis le clavier en Java."
+          },
+          {
+            "question": "Quel opérateur est utilisé pour effectuer une opération logique 'et' sur deux conditions en Java?",
+            "choices": ["&", "&&", "|"],
+            "response": 1,
+            "description": "L'opérateur '&&' est utilisé pour effectuer une opération logique 'et' sur deux conditions en Java."
+          },
+          {
+            "question": "Quelle méthode est appelée automatiquement lorsqu'un objet est créé en Java?",
+            "choices": ["create()", "start()", "constructor()"],
+            "response": 2,
+            "description": "La méthode du constructeur est appelée automatiquement lorsqu'un objet est créé en Java."
+          },
+          {
+            "question": "Quelle classe Java est utilisée pour gérer les exceptions?",
+            "choices": ["ExceptionHandler", "ExceptionManager", "Exception"],
+            "response": 2,
+            "description": "La classe 'Exception' est utilisée pour gérer les exceptions en Java."
+          }
+        ]
+    ],
+    "javascript" : [
+        [
+          {
+            "question": "Quel mot-clé est utilisé pour déclarer une variable en JavaScript?",
+            "choices": ["var", "let", "const"],
+            "response": 1,
+            "description": "En JavaScript, le mot-clé 'let' est utilisé pour déclarer une variable."
+          },
+          {
+            "question": "Quelle est la méthode pour afficher du texte dans la console en JavaScript?",
+            "choices": ["console.log()", "print()", "log()"],
+            "response": 0,
+            "description": "La méthode 'console.log()' est utilisée pour afficher du texte dans la console en JavaScript."
+          },
+          {
+            "question": "Quelle est la syntaxe correcte pour une boucle 'for' en JavaScript?",
+            "choices": [
+              "for (let i = 0; i < 5; i++)",
+              "foreach (let i = 0; i < 5; i++)",
+              "loop (let i = 0; i < 5; i++)"
+            ],
+            "response": 0,
+            "description": "La syntaxe correcte pour une boucle 'for' en JavaScript est 'for (let i = 0; i < 5; i++)'."
+          },
+          {
+            "question": "Quel est le résultat de l'expression 5 + '5' en JavaScript?",
+            "choices": ["10", "55", "Error"],
+            "response": 1,
+            "description": "En JavaScript, lorsque vous ajoutez un nombre à une chaîne, le nombre est converti en chaîne, donc le résultat est '55'."
+          },
+          {
+            "question": "Quel est l'opérateur logique 'ET' en JavaScript?",
+            "choices": ["&&", "||", "!"],
+            "response": 0,
+            "description": "En JavaScript, l'opérateur logique 'ET' est représenté par '&&'."
+          },
+          {
+            "question": "Quelle fonction est utilisée pour arrondir un nombre à l'entier le plus proche en JavaScript?",
+            "choices": ["Math.round()", "Math.floor()", "Math.ceil()"],
+            "response": 0,
+            "description": "La fonction 'Math.round()' est utilisée pour arrondir un nombre à l'entier le plus proche en JavaScript."
+          },
+          {
+            "question": "Quel est le résultat de l'expression typeof 'Hello' en JavaScript?",
+            "choices": ["'string'", "'number'", "'boolean'"],
+            "response": 0,
+            "description": "L'opérateur typeof renvoie une chaîne représentant le type de l'opérande, donc typeof 'Hello' renvoie 'string'."
+          },
+          {
+            "question": "Quelle méthode est utilisée pour supprimer le dernier élément d'un tableau en JavaScript?",
+            "choices": [".pop()", ".remove()", ".delete()"],
+            "response": 0,
+            "description": "La méthode 'pop()' est utilisée pour supprimer le dernier élément d'un tableau en JavaScript."
+          },
+          {
+            "question": "Quel est le résultat de l'expression 10 == '10' en JavaScript?",
+            "choices": ["true", "false", "undefined"],
+            "response": 0,
+            "description": "En utilisant l'opérateur '==', JavaScript effectue une conversion de type, donc 10 est égal à '10' en valeur, renvoyant true."
+          },
+          {
+            "question": "Quelle est la différence entre 'let' et 'const' pour la déclaration de variables?",
+            "choices": [
+              "'let' est constant, 'const' peut être modifié.",
+              "'let' ne peut être utilisé que dans les boucles, 'const' dans n'importe quel bloc.",
+              "'let' peut être réaffecté, 'const' est immuable."
+            ],
+            "response": 2,
+            "description": "La différence principale est que 'let' peut être réaffecté, tandis que 'const' est utilisé pour des valeurs immuables."
+          },
+          {
+            "question": "Quelle fonction est utilisée pour obtenir la longueur d'une chaîne de caractères en JavaScript?",
+            "choices": ["length()", "size()", "len()"],
+            "response": 0,
+            "description": "La propriété 'length' est utilisée pour obtenir la longueur d'une chaîne de caractères en JavaScript."
+          }
+        ],
+        [
+          {
+            "question": "Quel mot-clé est utilisé pour déclarer une constante en JavaScript?",
+            "choices": ["var", "let", "const"],
+            "response": 2,
+            "description": "En JavaScript, le mot-clé 'const' est utilisé pour déclarer une constante."
+          },
+          {
+            "question": "Quelle est la méthode pour ajouter un élément au début d'un tableau en JavaScript?",
+            "choices": [".unshift()", ".prepend()", ".addFirst()"],
+            "response": 0,
+            "description": "La méthode '.unshift()' est utilisée pour ajouter un élément au début d'un tableau en JavaScript."
+          },
+          {
+            "question": "Quel est le résultat de l'expression 5 == '5' en JavaScript?",
+            "choices": ["true", "false", "undefined"],
+            "response": 0,
+            "description": "En utilisant l'opérateur '==', JavaScript effectue une conversion de type, donc 5 est égal à '5' en valeur, renvoyant true."
+          },
+          {
+            "question": "Quelle est la différence entre 'let' et 'var' pour la déclaration de variables?",
+            "choices": [
+              "'let' est bloqué dans les boucles, 'var' est globale.",
+              "'let' peut être réaffecté, 'var' ne peut pas.",
+              "'let' est utilisé pour les constantes, 'var' pour les variables."
+            ],
+            "response": 0,
+            "description": "La différence principale est que 'let' est bloqué dans les boucles, tandis que 'var' est globale."
+          },
+          {
+            "question": "Quelle est la méthode pour obtenir la partie entière d'un nombre en JavaScript?",
+            "choices": ["Math.round()", "Math.floor()", "Math.ceil()"],
+            "response": 1,
+            "description": "La fonction 'Math.floor()' est utilisée pour obtenir la partie entière d'un nombre en JavaScript."
+          },
+          {
+            "question": "Quelle est la syntaxe pour une déclaration de fonction fléchée en JavaScript?",
+            "choices": [
+              "function myFunction() {}",
+              "const myFunction = function() {}",
+              "const myFunction = () => {}"
+            ],
+            "response": 2,
+            "description": "La syntaxe pour une déclaration de fonction fléchée est 'const myFunction = () => {}'."
+          },
+          {
+            "question": "Quelle est la valeur de 'null' en JavaScript?",
+            "choices": ["0", "undefined", "null"],
+            "response": 2,
+            "description": "La valeur de 'null' en JavaScript est 'null'."
+          },
+          {
+            "question": "Quel est l'opérateur logique 'NON' en JavaScript?",
+            "choices": ["&&", "||", "!"],
+            "response": 2,
+            "description": "En JavaScript, l'opérateur logique 'NON' est représenté par '!'."
+          },
+          {
+            "question": "Quelle est la méthode pour convertir une chaîne en minuscules en JavaScript?",
+            "choices": [".toLowerCase()", ".toLower()", ".lowerCase()"],
+            "response": 0,
+            "description": "La méthode '.toLowerCase()' est utilisée pour convertir une chaîne en minuscules en JavaScript."
+          },
+          {
+            "question": "Quel est le résultat de l'expression true && false en JavaScript?",
+            "choices": ["true", "false", "Error"],
+            "response": 1,
+            "description": "L'opérateur '&&' renvoie false si l'un des opérandes est false, sinon true."
+          }
+        ],
+        [
+          {
+            "question": "Quelle balise HTML est utilisée pour incorporer du code JavaScript dans une page web?",
+            "choices": ["<script>", "<js>", "<javascript>"],
+            "response": 0,
+            "description": "La balise '<script>' est utilisée pour incorporer du code JavaScript dans une page web."
+          },
+          {
+            "question": "Quelle méthode JavaScript est utilisée pour afficher une boîte de dialogue avec un message?",
+            "choices": ["alert()", "message()", "prompt()"],
+            "response": 0,
+            "description": "La méthode 'alert()' est utilisée pour afficher une boîte de dialogue avec un message en JavaScript."
+          },
+          {
+            "question": "Quel événement JavaScript est déclenché lorsqu'un utilisateur clique sur un élément HTML?",
+            "choices": ["onmouseover", "onclick", "onchange"],
+            "response": 1,
+            "description": "L'événement 'onclick' est déclenché lorsqu'un utilisateur clique sur un élément HTML en JavaScript."
+          },
+          {
+            "question": "Quelle est la syntaxe correcte pour déclarer une variable en JavaScript?",
+            "choices": [
+              "var variable = 5;",
+              "variable var = 5;",
+              "let variable = 5;"
+            ],
+            "response": 2,
+            "description": "La syntaxe correcte pour déclarer une variable en JavaScript est 'let variable = 5;'."
+          },
+          {
+            "question": "Quelle fonction JavaScript est utilisée pour arrondir un nombre à l'entier le plus proche?",
+            "choices": ["round()", "floor()", "ceil()"],
+            "response": 0,
+            "description": "La fonction 'round()' est utilisée pour arrondir un nombre à l'entier le plus proche en JavaScript."
+          },
+          {
+            "question": "Quel mot-clé JavaScript est utilisé pour définir une fonction?",
+            "choices": ["function", "def", "method"],
+            "response": 0,
+            "description": "Le mot-clé 'function' est utilisé pour définir une fonction en JavaScript."
+          },
+          {
+            "question": "Quelle est la méthode JavaScript utilisée pour sélectionner un élément HTML par son ID?",
+            "choices": [
+              "getElementByName()",
+              "selectElement()",
+              "getElementById()"
+            ],
+            "response": 2,
+            "description": "La méthode 'getElementById()' est utilisée pour sélectionner un élément HTML par son ID en JavaScript."
+          },
+          {
+            "question": "Quel opérateur JavaScript est utilisé pour la concaténation de chaînes?",
+            "choices": ["+", "&", "~"],
+            "response": 0,
+            "description": "L'opérateur '+' est utilisé pour la concaténation de chaînes en JavaScript."
+          },
+          {
+            "question": "Quelle méthode JavaScript est utilisée pour changer le contenu HTML d'un élément?",
+            "choices": ["innerHTML", "changeContent()", "setHTML()"],
+            "response": 0,
+            "description": "La propriété 'innerHTML' est utilisée pour changer le contenu HTML d'un élément en JavaScript."
+          },
+          {
+            "question": "Quelle boucle JavaScript est utilisée pour itérer sur les propriétés d'un objet?",
+            "choices": ["for...in", "for...of", "foreach"],
+            "response": 0,
+            "description": "La boucle 'for...in' est utilisée pour itérer sur les propriétés d'un objet en JavaScript."
+          }
+        ],
+        [
+          {
+            "question": "Quelle est la différence entre 'let' et 'var' pour la déclaration de variables en JavaScript?",
+            "choices": [
+              "'let' est utilisé pour les variables locales, 'var' pour les variables globales",
+              "'var' est utilisé pour les variables locales, 'let' pour les variables globales",
+              "Il n'y a pas de différence"
+            ],
+            "response": 0,
+            "description": "'let' est utilisé pour déclarer des variables locales, tandis que 'var' est utilisé pour déclarer des variables globales."
+          },
+          {
+            "question": "Quelle méthode est utilisée pour ajouter un élément à la fin d'un tableau en JavaScript?",
+            "choices": [".add()", ".append()", ".push()"],
+            "response": 2,
+            "description": "La méthode pour ajouter un élément à la fin d'un tableau en JavaScript est '.push()'."
+          },
+          {
+            "question": "Quelle est la différence entre '==' et '===' pour la comparaison d'égalité en JavaScript?",
+            "choices": [
+              "'==' compare les valeurs, '===' compare les valeurs et les types",
+              "'===' compare les valeurs, '==' compare les références mémoire",
+              "Il n'y a pas de différence"
+            ],
+            "response": 0,
+            "description": "'==' compare les valeurs, tandis que '===' compare les valeurs et les types, exigeant une égalité stricte."
+          },
+          {
+            "question": "Quelle est la fonction de la méthode 'indexOf()' sur un tableau en JavaScript?",
+            "choices": [
+              "Trouve la première occurrence d'un élément dans le tableau",
+              "Trouve la dernière occurrence d'un élément dans le tableau",
+              "Vérifie si un élément existe dans le tableau"
+            ],
+            "response": 0,
+            "description": "La méthode 'indexOf()' trouve la première occurrence d'un élément dans le tableau et renvoie son index, ou -1 s'il n'est pas trouvé."
+          },
+          {
+            "question": "Quelle est la différence entre 'null' et 'undefined' en JavaScript?",
+            "choices": [
+              "'null' est une valeur attribuée par le programmeur, 'undefined' est par défaut",
+              "'undefined' est une valeur attribuée par le programmeur, 'null' est une valeur par défaut",
+              "Il n'y a pas de différence"
+            ],
+            "response": 0,
+            "description": "'null' est une valeur attribuée par le programmeur pour indiquer l'absence de valeur, tandis que 'undefined' est une valeur par défaut pour les variables non initialisées."
+          },
+          {
+            "question": "Quelle est la méthode pour supprimer le dernier élément d'un tableau en JavaScript?",
+            "choices": [".delete()", ".pop()", ".remove()"],
+            "response": 1,
+            "description": "La méthode pour supprimer le dernier élément d'un tableau en JavaScript est '.pop()'."
+          },
+          {
+            "question": "Quelle est la différence entre 'let' et 'const' pour la déclaration de variables en JavaScript?",
+            "choices": [
+              "'let' est mutable, 'const' est immutable",
+              "'const' est mutable, 'let' est immutable",
+              "Il n'y a pas de différence"
+            ],
+            "response": 0,
+            "description": "'let' est utilisé pour déclarer des variables mutables, tandis que 'const' est utilisé pour déclarer des variables immuables."
+          },
+          {
+            "question": "Quelle est la fonction de la méthode 'slice()' sur un tableau en JavaScript?",
+            "choices": [
+              "Supprime un élément spécifié du tableau",
+              "Copie une portion spécifiée du tableau",
+              "Inverse l'ordre des éléments dans le tableau"
+            ],
+            "response": 1,
+            "description": "La méthode 'slice()' sur un tableau en JavaScript copie une portion spécifiée du tableau et la renvoie dans un nouveau tableau."
+          },
+          {
+            "question": "Quelle est la différence entre 'let' et 'var' pour la portée des variables en JavaScript?",
+            "choices": [
+              "'let' a une portée de bloc, 'var' a une portée de fonction",
+              "'var' a une portée de bloc, 'let' a une portée de fonction",
+              "Il n'y a pas de différence"
+            ],
+            "response": 0,
+            "description": "'let' a une portée de bloc, ce qui signifie qu'il est limité à l'intérieur du bloc où il est déclaré, tandis que 'var' a une portée de fonction, limitée à la fonction où elle est déclarée."
+          },
+          {
+            "question": "Quelle est la méthode pour convertir une chaîne en nombre entier en JavaScript?",
+            "choices": [".toInt()", "parseInt()", ".toInteger()"],
+            "response": 1,
+            "description": "La méthode pour convertir une chaîne en nombre entier en JavaScript est 'parseInt()'."
+          }
+        ]
+    ]
+}
