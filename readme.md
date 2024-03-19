@@ -56,7 +56,7 @@ The quizs are stored in a json file, each quiz is a list of object represented l
 
 > [!IMPORTANT]
 > The data was generated using AI, you may encounter errors  
-> Refer to the [ultime.json]('/data/ultime.json') file inside `/data` directory if you want to change the data.  
+> Refer to the [ultime.json](/data/ultime.json) file inside `/data` directory if you want to change the data.  
 > The present data are in french.
 
 ## logo images
