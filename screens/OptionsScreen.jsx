@@ -1,9 +1,10 @@
-import { Text, View } from "react-native";
+import { View, Text } from "react-native";
 
 export default function OptionsScreen() {
+    
     return (
-        <View>
-            <Text>Options Screen</Text>
+        <View className="flex-1 h-full bg-violet-50 items-center justify-center">
+            <Text className="text-2xl text-red-400">In construction</Text>
         </View>
     )
 }

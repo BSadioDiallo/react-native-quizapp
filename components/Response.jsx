@@ -11,9 +11,9 @@ export default function Response({children, onPress, index, selected}) {
     }
     
     return (
-        <View className='mb-2 rounded-sm max-w-[82vw] w-[82vw] min-h-[10vh] max-h-[12vh] bg-neutral-100 shadow-slate-900 shadow-2xl border-spacing-1'>
-            <TouchableOpacity className="flex-row justify-between items-center gap-x-1 ml-1 h-[100%]" onPress={() => handleClick(index)}>
-                <Text textBreakStrategy="balanced" numberOfLines={3} className="text-wrap text-base font-semibold">{children}</Text>
+        <View className='mb-2 rounded-sm max-w-[82vw] w-[78vw] min-h-[10vh] max-h-[12vh] bg-neutral-100 shadow-violet-200 shadow-md border-spacing-1'>
+            <TouchableOpacity className="flex-row justify-between items-center ml-1 h-[100%] w-fit" onPress={() => handleClick(index)}>
+                <Text textBreakStrategy="balanced" numberOfLines={3} className="text-wrap text-xl font-medium pr-1">{children}</Text>
                 <View className={styles.selecteionMark}>
                 </View>
             </TouchableOpacity>

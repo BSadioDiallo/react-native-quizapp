@@ -1,32 +1,31 @@
-import { StyleSheet, Text, View, Pressable, } from "react-native";
+import { StyleSheet, Text, View, Pressable } from "react-native";
 import { useNavigation } from '@react-navigation/native';
 import Card from '../components/Card';
-const pythonLogo = require('../assets/icons/logo_python_icon.png');
-const jsLogo = require('../assets/icons/javascript_language_icon.png');
-const javaLogo = require('../assets/icons/java_language_icon.png');
-const phpLogo = require('../assets/icons/logo_php_icon.png');
+
+const pythonLogo = require('../assets/icons/4375050_logo_python_icon.png');
+const javascriptLogo = require('../assets/icons/4373213_js_logo_logos_icon.png');
+const javaLogo = require('../assets/icons/4373217_java_logo_logos_icon.png');
+const html5Logo = require('../assets/icons/4373229_html5_logo_logos_icon.png');
 
 export default function HomeScreen() {
-    const navigation = useNavigation()
 
+    const navigation = useNavigation();
+    
     return (
-        <View style={styles.container}>
-            <View className="flex flex-row gap-16">
-                <View>
-                    <Text className="text-4xl font-extrabold">Quiz</Text>
-                    <Text className="text-2xl">Train yourself</Text>
-                </View>
+        <View style={styles.container} className="bg-violet-100">
+            <View className="flex flex-row gap-8">
+                <Text className="fr text-2xl text-gray-900">Train Yourself</Text>
                 <Text className="text-5xl self-center text-violet-500">Quiz</Text>
             </View>
             <View style={styles.cardsContainer}>
-                <Card logoImg={pythonLogo}>python</Card>
-                <Card logoImg={jsLogo}>javascript</Card>
-                <Card logoImg={javaLogo}>java</Card>
-                <Card logoImg={phpLogo}>php</Card>
+                <Card logoImg={pythonLogo} onPress={() => navigation.navigate('QuizSelection', {name: 'python'})}>Python</Card>
+                <Card logoImg={javascriptLogo} onPress={() => navigation.navigate('QuizSelection', {name: "javascript"})}>Javascript</Card>
+                <Card logoImg={javaLogo} onPress={() => navigation.navigate('QuizSelection', {name: "java"})}>Java</Card>
+                <Card logoImg={html5Logo} onPress={() => navigation.navigate('QuizSelection', {name: "html"})}>Html 5</Card>
             </View>
-            <View className="flex flex-row justify-between gap-40" >
+            <View className="flex flex-row gap-36" >
                 <Pressable onPress={() => navigation.navigate('About')}>
-                    <Text className="text-xl text-center">{'< à propos'}</Text>  
+                    <Text className="text-xl text-center">{'< about'}</Text>  
                 </Pressable>
                 <Pressable onPress={() => navigation.navigate('Options')}>    
                     <Text className="text-xl text-center">{'options >'}</Text>    
@@ -48,4 +47,4 @@ const styles = StyleSheet.create({
         justifyContent: 'space-around',
         flexWrap: 'wrap',
     },
-})
+});
