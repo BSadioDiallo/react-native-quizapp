@@ -1,4 +1,4 @@
-# Description
+## Description
 
 This quiz application was made using *react-native* with *expo*  and *tailwindcss* for **UI** via *nativewind*.
 
